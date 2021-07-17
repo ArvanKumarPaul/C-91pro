@@ -1,0 +1,28 @@
+body {
+
+  background-image: url("wallpaper.jpg");
+  text-align: center;
+  color: white;
+
+}
+
+input {
+
+  border-radius: 30px;
+  background: transparent;
+  border: none;
+  border-style: ridge;
+  border-color: rgb(0, 255, 191);
+
+}
+
+div {
+
+  background-image: url("div_bg.jpg");
+  height: 150px;
+  width: 400px;
+  border-radius: 30px;
+  border-style: ridge;
+  border-color: blueviolet;
+
+}

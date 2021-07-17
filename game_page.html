@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>
+            Math Quiz Game
+        </title>
+        <script src="game_page_js.js"></script>
+        <link rel="stylesheet" href="game_page_css.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h4 id="player_1_name"></h4><span id="player_1_score"></span>
+        <h4 id="player_2_name"></h4><span id="player_2_score"></span>
+        <br>
+        <center>
+        <h1>Math Quiz Game</h1>
+        <br>
+        <h3>Question Turn - -</h3><span id="Question_turn_player"></span>
+        <h3>Answer Turn - -</h3><span id="Answer_turn_player"></span>
+        <br>
+        <br>
+        <div id="output">
+        </div>
+        <br>
+        <br>
+        <label>Number 1 :</label>
+        <br>
+        <input type="text" id="first_num" placeholder="Number 1">
+        <br>
+        <label>Number 2 :</label>
+        <br>
+        <input type="text" id="second_num" placeholder="Number 2">
+        <br>
+        <br>
+        <button onclick="Send()" id="SendButton">Check</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        </center>
+    </body>
+</html>

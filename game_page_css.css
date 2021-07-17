@@ -1,0 +1,66 @@
+body {
+
+  background-image: url("wallpaper.jpg");
+  font-family: Open Sans;
+
+}
+
+#QnA_div {
+
+  background-image: url("div_bg.jpg");
+  width: 500px;
+  padding: 10px;
+  border-radius: 30px;
+  border-color: purple;
+  font-weight: bold;
+
+}
+
+#answer {
+
+  border-radius: 30px;
+  background: transparent;
+  border-color: purple;
+  width: 300px;
+
+}
+
+#CheckButton {
+  background-color: rgb(52, 158, 194); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#SendButton {
+  background-color: rgb(52, 158, 194); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#first_num {
+
+  width: 70%;
+  border-radius: 30px;
+  background: transparent;
+  border-color: white;
+
+}
+
+#second_num {
+
+  width: 70%;
+  border-radius: 30px;
+  background: transparent;
+  border-color: white;
+
+}
